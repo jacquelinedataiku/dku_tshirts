@@ -65,8 +65,16 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"customer_id","type":"string"},
+      {"name":"ip","type":"string"},
+      {"name":"ip_country","type":"string"},
+      {"name":"pages_visited","type":"double"},
+      {"name":"campain","type":"boolean"},
+      {"name":"revenue","type":"double"},
+      {"name":"new_col","type":"bigint"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
