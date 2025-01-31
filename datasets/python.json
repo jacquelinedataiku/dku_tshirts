@@ -2,6 +2,7 @@
   "type": "S3",
   "managed": true,
   "featureGroup": false,
+  "shortDesc": "this is a python recipe output",
   "formatType": "parquet",
   "checklists": {
     "checklists": []
@@ -74,7 +75,7 @@
       {"name":"revenue","type":"double"},
       {"name":"new_col","type":"bigint"}
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
