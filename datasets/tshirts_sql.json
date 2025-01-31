@@ -67,7 +67,9 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"revenue_sum","type":"double"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
